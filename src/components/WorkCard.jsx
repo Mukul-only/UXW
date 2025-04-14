@@ -2,7 +2,7 @@ const WorkCard = (props) => {
   return (
     <div>
       {props.children}
-      <p className="mt-4 text-sm text-grey_light">{props.date}</p>
+      <p className="mt-4 text-sm text-grey_light ">{props.date}</p>
       <h1
         className={
           props.xl
